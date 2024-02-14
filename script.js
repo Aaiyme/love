@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
         msg_container.style.display = "block";
         heart_container.style.marginTop = "-1.5%";
         
-        const auto_css_height = msg_container.scrollHeight + 40; // 20 extra padding
+        const auto_css_height = msg_container.scrollHeight + 20; // 20 extra padding
         msg_container.style.height = auto_css_height + "px";
     });
 
